@@ -17,13 +17,13 @@ This script requires pyusb, pyserial, python-usbtmc, and numpy.
 3. `pip3 install pyserial`
 4. `pip3 install pyusb`
 5. `pip3 install numpy`
-5. download https://github.com/python-ivi/python-usbtmc/archive/master.zip
-6. extract the zip, and open powershell in the extracted directory
-7. `python setup.py install`
-8. plug in the DSA815
-9. download zadig from http://zadig.akeo.ie/downloads
-10. run the executable
-11. select the DSA815 in the drop-down
-12. above the "install driver" button, select libusb-win32
-13. press "install driver"
-14. you're good to go. use powershell to run the script.
+6. download https://github.com/python-ivi/python-usbtmc/archive/master.zip
+7. extract the zip, and open powershell in the extracted directory
+8. `python setup.py install`
+9. plug in the DSA815
+10. download zadig from http://zadig.akeo.ie/downloads
+11. run the executable
+12. select the DSA815 in the drop-down
+13. above the "install driver" button, select libusb-win32
+14. press "install driver"
+15. clone this repository and run the script.
