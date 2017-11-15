@@ -3,10 +3,10 @@ Tools for performing electromagnetic compatibility measurements.
 
 # Conducted Emissions
 `conducted_scan.py <pk|av|qp> <scan_name>` will perform a conducted emissions scan using a Rigol DSA815 connected to your PC via USB.
-The script will configure the signal analyzer for the scan, conduct the scan, and save the results (including the CE limit line) to a csv file titled `<scan_name>.csv`.
+The script will configure the signal analyzer for the scan, conduct the scan, and save the results (including the appropriate limit line) to a csv file titled `<scan_name>.csv`.
 
 ## Quasi-Peak Scans
-Given the speed of a quasi-peak scan, this script currently only performs a scan from 150-500kHz. You can adjust the upper frequency manually in the `det_qp` method.
+Given the time consuming nature of a quasi-peak scan, this script currently only performs a scan from 150-500kHz. You can adjust the upper frequency manually in the `det_qp` method.
 
 ## Dependencies
 This script requires pyusb, pyserial, python-usbtmc, and numpy.
