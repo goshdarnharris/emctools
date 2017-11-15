@@ -14,9 +14,9 @@ This script requires pyusb, pyserial, python-usbtmc, and numpy.
 ### Installation Instructions (Windows)
 1. install python3 from https://www.python.org/ftp/python/3.6.3/python-3.6.3-amd64.exe
 2. open powershell
-3. `pip3 install pyserial`
-4. `pip3 install pyusb`
-5. `pip3 install numpy`
+3. `pip install pyserial`
+4. `pip install pyusb`
+5. `pip install numpy`
 6. download https://github.com/python-ivi/python-usbtmc/archive/master.zip
 7. extract the zip, and open powershell in the extracted directory
 8. `python setup.py install`
