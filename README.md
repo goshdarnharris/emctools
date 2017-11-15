@@ -24,6 +24,7 @@ This script requires pyusb, pyserial, python-usbtmc, and numpy.
 10. download zadig from http://zadig.akeo.ie/downloads
 11. run the executable
 12. select the DSA815 in the drop-down
+* If nothing appears in the drop down menu, enable "List All Devices" in the "Options" menu.
 13. above the "install driver" button, select libusb-win32
 14. press "install driver"
-15. clone this repository and run the script.
+15. clone this repository and run the script. in some cases you may need to run powershell as an administrator.
